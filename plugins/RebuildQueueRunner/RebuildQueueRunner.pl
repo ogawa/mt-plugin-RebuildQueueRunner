@@ -32,7 +32,7 @@ my $plugin = __PACKAGE__->new({
     tasks => {
 	'RebuildQueueRunner' => {
 	    name      => "RebuildQueueRunner (every 5 minutes)",
-	    frequency => 10,
+	    frequency => 300,
 	    code      => \&rebuild_queue_runner,
 	},
     },
